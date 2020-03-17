@@ -8,17 +8,23 @@ module.exports = {
     description: 'Vuepress blog demo',
     themeConfig: {
         // 你的GitHub仓库，请正确填写
-      repo: 'https://github.com/xxxxxxx/blog-demo',
+      repo: 'https://github.com/JiuRiend/blog-demo',
       // 自定义仓库链接文字。
-      repoLabel: 'My GitHub',
+      repoLabel: 'GitHub',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'FirstBlog', link: '/blog/FirstBlog.md' }
+            { text: 'Vue', link: '/Vue/vue.md' },
+            { text: 'React', link: '/React/react.md' }
         ],
-        sidebar: [
-            ['/', '首页'],
-            ['/blog/FirstBlog.md', '我的第一篇博客']
-        ]
+        sidebar: {
+            '/Vue/':[
+                'vue',
+                'vuex'
+            ],
+            '/React/':[
+                'react'
+            ]
+        }
+        
   }
 }
 
