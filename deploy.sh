@@ -17,3 +17,5 @@ git commit -m 'deploy'
 git push -f git@github.com:JiuRiend/blog-demo.git master:gh-pages
 
 cd -
+//给它添加一个可执行权限
+chmod +x deploy.sh
