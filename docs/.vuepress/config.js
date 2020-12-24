@@ -18,9 +18,12 @@ module.exports = {
         sidebar: {
             '/Vue/':[
                 'vue',
-                'vuex'
+                'vue3'
             ],
             '/React/':[
+                'react'
+            ],
+            '/utils/':[
                 'react'
             ]
         }
